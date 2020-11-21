@@ -1,0 +1,159 @@
+/* Header */
+
+  header {
+    background-image:url(images/home/header-background.jpeg);
+    width: 100%;
+    display: flex;
+  }
+  
+
+  header h1 {
+    color: gold;
+    text-align: center;
+    margin: 0;
+    padding: 60px 0;
+    font-family: fantasy, cursive;
+    font-size: 70px;
+  }
+
+  header h3{
+    color: gold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: fantasy, cursive;
+    font-size: 25px;
+  }
+
+  nav {
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin:50px;
+        padding: 30px 60px;
+      }
+
+    nav a {
+        color:#ffffff;
+        text-decoration: none;
+    }
+
+  
+  
+  /* Body */
+
+  body {
+      background-color: teal;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  img {
+    width: 100%;
+    display: flex;
+  }
+  
+  img.rounded {
+    border-radius: 8px;
+  }
+  
+  /*  Main */
+
+  
+  main h2 {
+    font-size: 28px;
+    font-family: Cambria;
+    font-weight: 400;
+  }
+  
+  main h3 {
+    font-size: 22px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+  }
+  
+  main p {
+   font-family: Georgia, 'Times New Roman', Times, serif;;
+   line-height: 1.5em;
+   margin-bottom: 0em;
+  }
+  
+  main  .wrapper  h2 {
+    padding-left: 10px;
+    margin-bottom: 0;
+  }
+  
+  main .intro {
+    font-size: 24px;
+  }
+  
+  /* Groups & Items  (Mobile First) */
+  .wrapper {
+    text-align: center;
+    width: 100%;
+  }
+  
+  .group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .item {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .item-double {
+    flex: 2;
+    margin: 10px;
+  }
+
+
+    /* SECTIONS */
+
+    #home{
+        margin:0;
+    }
+
+    #about {
+        background-color: #c5c0b8;
+        margin-bottom: 120px;
+      }
+  
+    #portfolio{
+        margin-bottom: 120px;
+      }
+
+  #contact{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 120px;
+}
+
+  /* FOOTER */
+  .footer {
+    color: gold;
+    display: flex;
+    background-color:#000000;
+    justify-content: center;
+    margin: 0;
+    padding: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+  }
+  
+  /* Groups & Wrapper  (Desktop) */
+  
+  @media all and (min-width: 800px) {
+    .wrapper {
+      width: 80%;
+      margin: auto;
+    }
+  
+    .group {
+      flex-direction: row;
+    }
+}
