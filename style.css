@@ -51,12 +51,14 @@
   }
   
   img {
-    width: 100%;
+    width: 50%;
     display: flex;
   }
   
   img.rounded {
+    width: 100%;
     border-radius: 8px;
+    display: 'flex';
   }
   
   /*  Main */
@@ -88,6 +90,15 @@
   main .intro {
     font-size: 24px;
   }
+
+
+  ul, h4 {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+  
   
   /* Groups & Items  (Mobile First) */
   .wrapper {
@@ -109,6 +120,7 @@
     flex: 2;
     margin: 10px;
   }
+
 
 
     /* SECTIONS */
